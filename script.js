@@ -53,11 +53,55 @@ function showExercise3() {
         document.body.appendChild(script); 
     }
 }
+function showExercise4() {
+    const body = document.getElementById("body");
+    body.innerHTML = `
+        <button id="returnmenu">Return Menu</button>
+    `;
 
+    document.getElementById("returnmenu").onclick = createMenu;
+
+    if (body) {
+        let script = document.createElement("script");
+        script.src = "ex4.js";
+        document.body.appendChild(script); 
+    }
+}
+function showExercise5() {
+    const body = document.getElementById("body");
+    body.innerHTML = `
+        <button id="returnmenu">Return Menu</button>
+    `;
+
+    document.getElementById("returnmenu").onclick = createMenu;
+
+    if (body) {
+        let script = document.createElement("script");
+        script.src = "ex5.js";
+        document.body.appendChild(script); 
+    }
+}
+function showExercise6() {
+    const body = document.getElementById("body");
+    body.innerHTML = `
+        <button id="returnmenu">Return Menu</button>
+    `;
+
+    document.getElementById("returnmenu").onclick = createMenu;
+
+    if (body) {
+        let script = document.createElement("script");
+        script.src = "ex6.js";
+        document.body.appendChild(script); 
+    }
+}
 function addEventListeners() {
     document.getElementById("ex1").onclick = showExercise1;
     document.getElementById("ex2").onclick = showExercise2;
     document.getElementById("ex3").onclick = showExercise3;
+    document.getElementById("ex4").onclick = showExercise4;
+    document.getElementById("ex5").onclick = showExercise5;
+    document.getElementById("ex6").onclick = showExercise6;
 }
 
 addEventListeners();
