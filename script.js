@@ -4,6 +4,9 @@ function createMenu() {
         <button id="ex1">Exercicio 1</button>
         <button id="ex2">Exercicio 2</button>
         <button id="ex3">Exercicio 3</button>
+        <button id="ex4">Exercicio 4</button>
+        <button id="ex5">Exercicio 5</button>
+        <button id="ex6">Exercicio 6</button>
     `;
     addEventListeners();
     console.clear();
