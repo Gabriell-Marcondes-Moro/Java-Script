@@ -5,5 +5,6 @@
 
 //  ⬇️ Começa na linha 8 ⬇️
 
+var Nome = "Gabriell Moro";
 
-
+console.log(Nome);
