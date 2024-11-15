@@ -8,6 +8,6 @@
 
 var PrimeiroNome = "Gabriell";
 var SegundoNome = "Moro";
-var NomeCompleto = "Gabriell"+"Moro";
+var NomeCompleto = PrimeiroNome +" "+ SegundoNome;
 
 console.log(NomeCompleto);
