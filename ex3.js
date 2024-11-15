@@ -6,3 +6,8 @@
 //  A variável "NomeCompleto" seria a soma de "Pedro" com "Nascimento", ou seja "Pedro Nascimento", e imprimia no terminal "Pedro Nascimento".
 //   ⬇️ Começa na linha 9 ⬇️
 
+var PrimeiroNome = "Gabriell";
+var SegundoNome = "Moro";
+var NomeCompleto = "Gabriell"+"Moro";
+
+console.log(NomeCompleto);
